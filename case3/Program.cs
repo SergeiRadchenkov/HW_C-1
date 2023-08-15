@@ -1,5 +1,5 @@
 ﻿Console.Write("Введите дня недели от 1 до 7: ");
-int weekday = int.Parse(Consolr.WriteLine()!);
+int weekday = int.Parse(Console.ReadLine()!);
 
 if(weekday == 1)
 {
@@ -30,6 +30,4 @@ else if(weekday == 7)
     Console.WriteLine("Воскресенье");
 }
 else
-{
     Console.WriteLine("Такого дня недели нет");
-}
